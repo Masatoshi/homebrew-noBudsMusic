@@ -17,6 +17,8 @@ cask "no-buds-music" do
     strategy :github_latest
   end
 
+  depends_on macos: ">= :sonoma"
+
   app "NoBudsMusic.app"
 
   uninstall quit: "jp.kaizudenki.noBudsMusic"

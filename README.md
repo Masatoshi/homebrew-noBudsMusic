@@ -5,7 +5,7 @@ Homebrew tap for `noBudsMusic`.
 Install:
 
 ```bash
-brew tap Masatoshi/noBudsMusic
+brew tap masatoshi/noBudsMusic
 brew install --cask no-buds-music
 ```
 
