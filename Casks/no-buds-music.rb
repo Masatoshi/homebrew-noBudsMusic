@@ -4,9 +4,8 @@
 cask "no-buds-music" do
   version "0.1.0"
 
-  # Use no_check until a stable release asset is signed/notarized and its hash is
-  # recorded in this file. For production, prefer pinned SHA-256.
-  sha256 :no_check
+  # Pinned SHA-256 for noBudsMusic-#{version}.zip.
+  sha256 "5a17631290df270ea0166ee9fdc8d967b4919b9fac3a1b846609adbd0681f608"
 
   url "https://github.com/Masatoshi/noBudsMusic/releases/download/v#{version}/noBudsMusic-#{version}.zip"
   name "noBudsMusic"
