@@ -5,7 +5,7 @@ cask "no-buds-music" do
   version "0.1.0"
 
   # Pinned SHA-256 for noBudsMusic-#{version}.zip.
-  sha256 "5a17631290df270ea0166ee9fdc8d967b4919b9fac3a1b846609adbd0681f608"
+  sha256 "e7c9ccd141b2fa897184ade8365070dd0612ddadfcec4359b07a4f73c6a7ef04"
 
   url "https://github.com/Masatoshi/noBudsMusic/releases/download/v#{version}/noBudsMusic-#{version}.zip"
   name "noBudsMusic"
